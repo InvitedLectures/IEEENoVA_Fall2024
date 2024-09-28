@@ -1,0 +1,38 @@
+---
+title: Connect, Compute and Communicate! 
+format:
+  html:
+    code-copy: false
+---
+
+## An introductory DIY internet of things system
+<html>
+<head>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+</head>
+<body>
+
+The Internet of Things (IoT) is perceived as a collection of smart, connected devices with the ability to send and receive data; “internet” encapsulates connectivity and “things” are devices (electronic or mechanical) that can be adapted toward connectivity. There is an alternative perception of IoT, as a design methodology that facilitates interoperability and connectivity of physical systems. Edge computing is a strategy for localized analysis of data, ahead in the pipeline of powerful data center- or cloud-based post-processing.
+
+This workshop provides an introductory-level exposure of the IoT framework and expands it with edge computing ideology via practical and hands-on exposure. The attendees will be exposed to the IoT framework using sensors, IoT automation and connectivity in a “microLab” environment that includes the Raspberry Pi (single-board computer) and Python programming language. The attendees will be expected to bring their own laptops with a free version of RealVNC Viewer software downloaded and installed. The attendees will work in small groups using a limited number of hardware components and WiFi connectivity that will be provided.
+
+The workshop will facilitate learning about how IoT with edge computing capability is going to be the backbone of the Industry 4.0. 
+
+## Time & Location of the course
+- **Monday Lecture**
+    - Room [**1957 E Room 213**](https://it.gwu.edu/classroom-search/1957-e-street-213)
+
+:::{.callout-note}
+Lecture times are from **3:45 PM – 5:00 PM**
+:::
+
+<!-- This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>. -->
