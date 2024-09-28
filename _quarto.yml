@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "IEEENoVA_Fall2024"
+  page-footer: "The material is sourced from **Prof. Kartik Bulusu's** course titled, 'Introduction to IoT and Edge computng applications'. <br>
+This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Contact: [Kartik Bulusu](mailto:bulusu@email.gwu.edu)<br>
+  &copy; 2024 All rights reserved"
+  search: true
+  page-navigation: true
+  bread-crumbs: true
+  sidebar:
+    style: floating
+    # collapse-level: 2
+    contents: 
+      - href: index.qmd
+        text: Home
+      - href: objectives.qmd
+        text: Learning Objectives       
+      - href: agenda.qmd
+        text: Agenda
+      - href: instructor.qmd
+        text: Instructor
+      - section: "Getting Started (Prerequisites)"
+        contents: 
+          - href: install-editor.qmd
+            text: Installations on your personal machine
+          - section: "Real VNC"
+            contents: 
+              - href: realvnc-mac.qmd
+                text: Mac
+              - href: realvnc-windows.qmd
+                text: Windows          
+
+ 
+    
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
