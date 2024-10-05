@@ -25,8 +25,10 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 
 
 :::{.callout-important}
- - Follow the instructions provided carefully and complete the required installations needed for this workshop. 
- - Once you finish the **Steps 1, 2 and 3 in the installation instructions**, fill out the [Installation Check-In form](https://forms.gle/Y6Yi9HTZSjD1MPHb7). 
+- The workshop is desinged with active learning modules with limited number of hardware components. 
+- You are strongly encouraged to bring your own personal machine or laptop and participate with the [prerequisites](install-editor.qmd) installed.
+ - Follow the instructions provided carefully and complete the required installations needed for this workshop. ([See prerequisites](install-editor.qmd))
+ - Once you finish the **Steps 1, 2 and 3 in the installation instructions** in [prerequisites](install-editor.qmd), fill out the [Pre-workshop survey form](https://tinyurl.com/yrkacfd9). 
  - **You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.**
 :::
 
@@ -145,8 +147,10 @@ The following installation instructions are important for this worshop, helping 
 <!-- Once you have an editor installed, you can start writing and running your code. Happy coding! -->
 
 :::{.callout-important}
- - Follow the instructions provided carefully and complete the required installations needed for this workshop. 
- - Once you finish the **Steps 1, 2 and 3 in the installation instructions**, fill out the [Installation Check-In form](https://forms.gle/Y6Yi9HTZSjD1MPHb7). 
+- The workshop is desinged with active learning modules with limited number of hardware components. 
+- You are strongly encouraged to bring your own personal machine or laptop and participate with the [prerequisites](install-editor.qmd) installed.
+ - Follow the instructions provided carefully and complete the required installations needed for this workshop. ([See prerequisites](install-editor.qmd))
+ - Once you finish the **Steps 1, 2 and 3 in the installation instructions** in [prerequisites](install-editor.qmd), fill out the [Pre-workshop survey form](https://tinyurl.com/yrkacfd9). 
  - **You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.**
 :::
 

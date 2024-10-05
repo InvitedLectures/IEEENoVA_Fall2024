@@ -1,6 +1,6 @@
 ---
 title: Connect, Compute and Communicate! 
-subtitle: Practical introduction to a DIY internet of things system
+subtitle: A practical introduction to a DIY internet of things system
 format:
   html:
     code-copy: false

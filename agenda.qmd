@@ -26,16 +26,12 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 :::
 
 :::{.callout-important}
-<!-- - Our staff is limiting the use of Linux OS-based laptops and cannot support them this semester.  -->
-- The workshop requires that you bring your own personal machine to participate with the [prerequisites](install-editor.qmd) installed.
-- You personal machine should be able to connect to the WiFi network provided at the location. 
-- **Tech support is not provided** unless there are minor issues that could be sorted out.  
-- **We prefer that your computer**
-    - is a laptop, with either MacOS 12+ or Windows 10+ operating system 
-    - has a standard US keyboard layout i.e, a QWERTY keyboard. 
-        - The QWERTY (pronounced KWEHR-tee) keyboard is the standard typewriter and computer keyboard in countries that use a Latin-based alphabet.
+- The workshop is desinged with active learning modules with limited number of hardware components. 
+- You are strongly encouraged to bring your own personal machine or laptop and participate with the [prerequisites](install-editor.qmd) installed.
+ - Follow the instructions provided carefully and complete the required installations needed for this workshop. ([See prerequisites](install-editor.qmd))
+ - Once you finish the **Steps 1, 2 and 3 in the installation instructions** in [prerequisites](install-editor.qmd), fill out the [Pre-workshop survey form](https://tinyurl.com/yrkacfd9). 
+ - **You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.**
 :::
-
 
 ```{=html}
 <table style="width:100%">
@@ -199,6 +195,20 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
         
     </tbody>
 </table>
+
 ```
 <!-- </body>
 </html> -->
+
+:::{.callout-important}
+<!-- - Our staff is limiting the use of Linux OS-based laptops and cannot support them this semester.  -->
+**Kindly note that**
+
+- Your personal machine should be able to connect to the WiFi network provided at the location. 
+
+- **Tech support is not provided** unless there are minor issues that could be sorted out.  
+- **We prefer that your computer**
+    - is a laptop, with either MacOS 12+ or Windows 10+ operating system 
+    - has a standard US keyboard layout i.e, a QWERTY keyboard. 
+        - The QWERTY (pronounced KWEHR-tee) keyboard is the standard typewriter and computer keyboard in countries that use a Latin-based alphabet.
+:::
