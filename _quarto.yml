@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "IEEENoVA_Fall2024"
+  title: "Workshop for IEEE NoVA Chapter (Fall2024)"
   page-footer: "The material is sourced from **Prof. Kartik Bulusu's** course titled, 'Introduction to IoT and Edge computng applications'. <br>
 This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
   Contact: [Kartik Bulusu](mailto:bulusu@email.gwu.edu)<br>
@@ -17,31 +17,41 @@ This is a Quarto website. To learn more about Quarto websites visit <https://qua
     contents: 
       - href: index.qmd
         text: Home
+      - href: guidelines.qmd
+        text: Workshop Guidelines        
       - href: objectives.qmd
         text: Learning Objectives       
       - href: agenda.qmd
-        text: Agenda
+        text: Agenda 
       - href: instructor.qmd
         text: Instructor
       - section: "Getting Started (Prerequisites)"
         contents: 
           - href: install-editor.qmd
             text: Installations on your personal machine
-          - section: "Real VNC"
+          - section: "Real VNC&reg; Viewer"
             contents: 
               - href: realvnc-mac.qmd
                 text: Mac
               - href: realvnc-windows.qmd
-                text: Windows          
+                text: Windows   
+          # - section: "Connecting your laptop to the Raspberry Pi"
+          #   contents: 
+          #     - href: realvnc-mac-connect.qmd
+          #       text: Mac
+          #     - href: realvnc-windows-connect.qmd
+          #       text: Windows                       
 
- 
-    
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    author: Kartik Bulusu
+    date: now
+    # monofont: "DejaVu Sans Mono"
+    # mainfont: "Roboto"
 
 
 

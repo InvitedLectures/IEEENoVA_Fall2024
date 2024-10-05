@@ -23,6 +23,13 @@ format:
   <span class="current-page">Instruction Team</span>
 </div> -->
 
+:::{.callout-important}
+**Referencing the content in this workshop:**
+
+Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+
 ## Dr. Kartik Bulusu (Instructor)
 **Dr. Kartik V. Bulusu** is an  Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).
 

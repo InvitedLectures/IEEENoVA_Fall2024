@@ -1,5 +1,6 @@
 ---
 title: "Agenda"
+subtitle: The agenda may be updated with minor changes during workshop
 format:
   html:
     code-copy: false
@@ -18,14 +19,19 @@ format:
 </head>
 <body>
 
+:::{.callout-important}
+**Referencing the content in this workshop:**
+
+Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
 
 :::{.callout-important}
 <!-- - Our staff is limiting the use of Linux OS-based laptops and cannot support them this semester.  -->
 - The workshop requires that you bring your own personal machine to participate with the [prerequisites](install-editor.qmd) installed.
 - You personal machine should be able to connect to the WiFi network provided at the location. 
 - **Tech support is not provided** unless there are minor issues that could be sorted out.  
-- We prefer that your computer
-    - should be a laptop, with either MacOS 12+ or Windows 10+ operating system 
+- **We prefer that your computer**
+    - is a laptop, with either MacOS 12+ or Windows 10+ operating system 
     - has a standard US keyboard layout i.e, a QWERTY keyboard. 
         - The QWERTY (pronounced KWEHR-tee) keyboard is the standard typewriter and computer keyboard in countries that use a Latin-based alphabet.
 :::
@@ -34,89 +40,117 @@ format:
 ```{=html}
 <table style="width:100%">
     <colgroup>
-        <col style="width:15%">
-        <col style="width:25%">
-        <col style="width:60%">
+        <col style="width:20%">
+        <col style="width:30%">
+        <col style="width:50%">
 
     </colgroup>
     <thead>
         <tr class="table-primary">
-            <th>Time</th>
+            <th>Time [h:mm]</th>
             <th>Topic(s)</th>
-            <th>Wednesday Lab Date</th>
+            <th scope="col">Description and the $\mu$-lab </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Week 0</td>
-            <td>Your First Program, <code><b>print</b></code></td>
-            <td>01/17/2024</td>
+            <td>0:00 - 0:10</td>
+            <td>Opening remarks and announcements</td>
+            <td> </td>
         </tr>
         <tr class="table-active">
-            <td>Week 1 [01/22/2024]</td>
-            <td>Introduction to Functions</td>
-            <td>01/24/2024</td>
+            <td>0:10 - 0:20</td>
+            <td>Prereq-checks and balances </td>
+            <td>
+                <ul>
+                    <li>Installations on your personal machines (Mac or Windows)):</li>  
+                    <ul>
+                        <li>Real VNC</li> 
+                    </ul> 
+                    <li>Hardware description and support:</li>  
+                    <ul>
+                        <li>Establish a tethered connection</li>
+                        <li>Create a **free** <a href="https://thingspeak.com/login?skipSSOCheck=true"target="_blank"> ThingSpeak</a> account</li> 
+                        <li>Get an **optional free** ThingView account of your mobile device</li>
+                    </ul> 
+                </ul>   
+            </td>     
         </tr>
         <tr>
-            <td>Week 2 [01/29/2024]</td>
-            <td>Looping: <code><b>for</b></code> Loops</td>
-            <td>01/31/2024</td>
+            <td>0:20 - 0:30</td>
+            <td>Warm-up activity </td>
+            <td>Pre-workshop survery and results</td>
         </tr>
         <tr class="table-active">
-            <td>Week 3 [02/05/2024]</td>
-            <td>Integers</td>
-            <td>02/07/2024</td>
+            <td>0:30 - 0:60</td>
+            <td> Brief history of IoT and What we do now</td>
+            <td>                
+                <ul>
+                    <li>IoT and Edge Computing [The big pictures]</li> 
+                    <li>Getting familiar with the Raspberry Pi 4B</li>
+                    <li>Python programming using Thonny</li> 
+                </ul> 
+            </td>
         </tr>
         <tr>
-            <td>Week 4 [02/12/2024]</td>
-            <td>Strings</td>
-            <td>02/14/2024</td>
+            <td>0:60 - 1:05</td>
+            <td>Break / Discussion</td>
+            <!-- <td>02/14/2024</td> -->
             <!-- <td>02/16/2024</td>
             <td>Unit 0 » Module 5 (Due <b>February 19, 2024</b> by <b>11:59 PM</b>)</td> -->
         </tr>
         <tr class="table-active">
-            <td>Week 5 President's Day - <b>No Class!</b></td>
-            <td>Floating Points</td>
-            <td>02/21/2024</td>
+            <td>1:05 - 1:25</td>
+            <td>What is a "Thing" in IoT?</td>
+            <td>Presentation / Discussion</td>
             <!-- <td>02/23/2024</td>
             <td>Unit 0 » Module 6 (Due <b>February 26, 2024</b> by <b>11:59 PM</b>)</td> -->
         </tr>
         <tr>
-            <td>Week 6 [02/26/2024]</td>
-            <td>Lists</td>
-            <td>02/28/2024</td>
-            <td>03/01/2024</td>
+            <td>1:25 - 1:30</td>
+            <td>Break / Discussion</td>
             <!-- <td>Assignment 1 (Due  <b>March 01, 2024</b> by <b>11:59 PM</b>) & Unit 1 » Module 0 (Due <b>March 04, 2024</b> by <b>11:59 PM</b>)</td> -->
         </tr>
         <tr class="table-active">
-            <td>Week 7 [03/04/2024]</td>
-            <td>Conditionals,<br><b>Make up Quiz</b></td>
-            <td>03/06/2024</td>
+            <td>1:30 - 2:00</td>
+            <td>Blinking LEDs<br><b>Make up Quiz</b></td>
+            <td>
+                <ul>
+                    <li style="color:black">Python skelton code for running programs on the Raspberry Pi</li>
+                    <li style="color:black">Using Thonny to blink LEDs</li>
+                    <li>dweet.io - it's like the Twitter of Things <a href="https://dweet.io"target="_blank"> dweet</a></li>
+                    <li style="color:black">Fetching data from dweet</li>
+                    <li style="color:black">dweet an LED - Your first IoT program</li>
+                    <li style="color:black">Raspberry Pi messaging with Python scripts</li>
+                </ul>
+            </td>    
             <!-- <td>03/08/2024</td>
             <td>Unit 1 » Module 1 (Due <b>March 11, 2024</b> by <b>11:59 PM</b>)</td> -->
         </tr>
         <tr>
-            <td>Week 8 <br>Spring Break - <b>No Class!</b></td>
-            <td><b>No Class</b></td>
-            <td><b>No Lab</b></td>
+            <td>2:00 - 2:05</td>
+            <td>Break / Discussion</td>
             <!-- <td><b>No Lab</b></td>
             <td>Nothing assigned</td> -->
         </tr>
         <tr class="table-active">
-            <td>Week 9 [03/18/2024]</td>
-            <td>Functions</td>
-            <td>03/20/2024</td>
-            <td>03/22/2024</td>
-            <td>Unit 1 » Module 2 (Due <b>March 25, 2024</b> by <b>11:59 PM</b>)</td>
+            <td>2:05 - 2:45</td>
+            <td>Demonstration of SenseHat sensor module</td>
+            <td>
+                <ul>
+                    <li>Implementation of MQTT using <a href="https://thingspeak.com/login?skipSSOCheck=true"target="_blank"> ThingSpeak</a></li>
+                    <li><strong>Implementation of ThingSpeak MQTT with SenseHat</strong></li>
+                </ul>
+            </td>  
         </tr>
         <tr>
-            <td>Week 10 [03/25/2024]</td>
-            <td>Booleans & Built-ins</td>
-            <td>03/27/2024</td>
-            <td>03/29/2024</td>
-            <td>Unit 1 » Module 3 & Assignment 2 (Due <b>April 01, 2024</b> by <b>11:59 PM</b>)</td>
+            <td>2:45 - 3:00</td>
+            <td>Closing remarks</td>
+            <td>Summary, survey and what's in the future</td>
+            <!-- <td>03/29/2024</td>
+            <td>Unit 1 » Module 3 & Assignment 2 (Due <b>April 01, 2024</b> by <b>11:59 PM</b>)</td> -->
         </tr>
-        <tr class="table-active">
+        <!-- <tr class="table-active">
             <td>Week 11 [04/01/2024]</td>
             <td><code><b>while</b></code> loops, I/O</td>
             <td>04/03/2024</td>
@@ -138,14 +172,14 @@ format:
             <td>04/17/2024</td>
             <td>04/19/2024</td>
             <td>Unit 2 » Module 0 (Due <b>April 25, 2024</b> by <b>11:59 PM</b>)</td>
-        </tr>
-        <tr>
+        </tr> -->
+        <!-- <tr>
             <td>Week 14 [04/22/2024]</td>
             <td>Advanced Topics</td>
             <td>04/24/2024</td>
-            <!-- <td>04/26/2024</td>
-            <td>Unit 2 » Module 1 & Assignemnt 4 (Due <b>May 01, 2024</b> by <b>11:59 PM</b>)</td> -->
-        </tr>
+            <td>04/26/2024</td>
+            <td>Unit 2 » Module 1 & Assignemnt 4 (Due <b>May 01, 2024</b> by <b>11:59 PM</b>)</td>
+        </tr> -->
         <!-- <tr class="table-active">
             <td>Week 15 [04/29/2024]</td>
             <td><em>Extra Lecture</em></td>

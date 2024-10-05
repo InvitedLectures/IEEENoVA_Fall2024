@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kartik Bulusu">
+<meta name="dcterms.date" content="2024-10-04">
 
-<title>IEEENoVA_Fall2024</title>
+<title>Workshop for IEEE NoVA Chapter (Fall2024) - Installing a remote access software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./install-editor.html">Getting Started (Prerequisites)</a></li><li class="breadcrumb-item"><a href="./install-editor.html">Installations</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./install-editor.html">Getting Started (Prerequisites)</a></li><li class="breadcrumb-item"><a href="./install-editor.html">Installations on your personal machine</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -97,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IEEENoVA_Fall2024</a> 
+      <a href="./">Workshop for IEEE NoVA Chapter (Fall2024)</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -111,6 +113,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop Guidelines</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -143,13 +151,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./install-editor.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Installations</span></a>
+ <span class="menu-text">Installations on your personal machine</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
- <span class="menu-text">Real VNC</span></a>
+ <span class="menu-text">Real VNC® Viewer</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -181,13 +189,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#installing-an-editor" id="toc-installing-an-editor" class="nav-link active" data-scroll-target="#installing-an-editor">Installing an Editor</a>
+  <li><a href="#installing-a-remote-access-software-vnc-viewer" id="toc-installing-a-remote-access-software-vnc-viewer" class="nav-link active" data-scroll-target="#installing-a-remote-access-software-vnc-viewer">Installing a remote access software: VNC® Viewer</a></li>
+  <li><a href="#installation-instructions" id="toc-installation-instructions" class="nav-link" data-scroll-target="#installation-instructions">Installation instructions</a>
   <ul class="collapse">
-  <li><a href="#what-is-an-editor" id="toc-what-is-an-editor" class="nav-link" data-scroll-target="#what-is-an-editor"><em>What is an Editor?</em></a>
-  <ul class="collapse">
-  <li><a href="#select-an-option-appropriate-for-your-operating-system" id="toc-select-an-option-appropriate-for-your-operating-system" class="nav-link" data-scroll-target="#select-an-option-appropriate-for-your-operating-system"><strong>Select an Option Appropriate for Your Operating System</strong></a></li>
-  <li><a href="#you-will-be-automatically-entered-into-a-raffle-in-the-workshop-on-10122024." id="toc-you-will-be-automatically-entered-into-a-raffle-in-the-workshop-on-10122024." class="nav-link" data-scroll-target="#you-will-be-automatically-entered-into-a-raffle-in-the-workshop-on-10122024.">You will be automatically entered into a raffle in the workshop on 10/12/2024.</a></li>
+  <li><a href="#select-an-option-appropriate-for-your-operating-system" id="toc-select-an-option-appropriate-for-your-operating-system" class="nav-link" data-scroll-target="#select-an-option-appropriate-for-your-operating-system"><strong>Select an option appropriate for your operating system</strong></a></li>
   </ul></li>
+  <li><a href="#connecting-your-laptop-to-the-raspberry-pi-using-vnc-viewer" id="toc-connecting-your-laptop-to-the-raspberry-pi-using-vnc-viewer" class="nav-link" data-scroll-target="#connecting-your-laptop-to-the-raspberry-pi-using-vnc-viewer">Connecting your laptop to the Raspberry Pi using VNC® Viewer</a>
+  <ul class="collapse">
+  <li><a href="#select-an-option-appropriate-for-your-operating-system-1" id="toc-select-an-option-appropriate-for-your-operating-system-1" class="nav-link" data-scroll-target="#select-an-option-appropriate-for-your-operating-system-1"><strong>Select an option appropriate for your operating system</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -195,22 +204,113 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./install-editor.html">Getting Started (Prerequisites)</a></li><li class="breadcrumb-item"><a href="./install-editor.html">Installations on your personal machine</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Installing a remote access software</h1>
+</div>
 
 
 
-<section id="installing-an-editor" class="level1">
-<h1>Installing an Editor</h1>
-<!-- <small>*Running your First Program*</small> -->
-<section id="what-is-an-editor" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-an-editor"><em>What is an Editor?</em></h2>
-<p>In the world of programming, an editor is more than just a text processor. It’s your creative workspace where you bring your code to life. Here are some key aspects of code editors:</p>
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kartik Bulusu </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 4, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+<style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+
+
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Referencing the content in this workshop:</strong></p>
+<p>Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><p><strong>Text Editing</strong>: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.</p></li>
-<li><p><strong>Code Execution</strong>: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.</p></li>
-<li><p><strong>Extensions and Plugins</strong>: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.</p></li>
-<li><p><strong>Integrated Development Environments (IDEs)</strong>: Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.</p></li>
-<li><p><strong>Collaboration</strong>: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.</p></li>
+<li>Follow the instructions provided carefully and complete the required installations needed for this workshop.</li>
+<li>Once you finish the <strong>Steps 1, 2 and 3 in the installation instructions</strong>, fill out the <a href="https://forms.gle/Y6Yi9HTZSjD1MPHb7">Installation Check-In form</a>.</li>
+<li><strong>You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.</strong></li>
 </ul>
+</div>
+</div>
+<section id="installing-a-remote-access-software-vnc-viewer" class="level1">
+<h1>Installing a remote access software: VNC® Viewer</h1>
+<p>VNC® Viewer is a remote access software application, that facilitates exchange data over the RFB protocol to allow the Viewer to control the Server’s screen remotely.</p>
+<p>Source: <a href="https://en.wikipedia.org/wiki/RealVNC">Wiki</a></p>
+<!-- <small>*Running your First Program*</small> -->
+<ul>
+<li><strong>How do I install VNC® Viewer?</strong></li>
+</ul>
+<p>Just run the installer on the device you want to control from and follow the instructions, or there’s MSIs for remote deployment under Windows. If you don’t have permission to install VNC® Viewer on desktop platforms, choose the standalone option.</p>
+<p>Source: <a href="https://www.realvnc.com/en/connect/download/viewer/?lai_vid=1jMrlad4GSrl&amp;lai_sr=10-14&amp;lai_sl=l&amp;lai_p=1">Real VNC FAQs</a></p>
+<ul>
+<li><strong>How do I control a remote computer?</strong></li>
+</ul>
+<p>If you have a keyboard and mouse in front of you, use them as you would normally. We don’t recommed the use of a mobile device for this workshop. However, if you’re on a mobile device, then your touchscreen acts as a mouse trackpad, with gestures mapped to mouse buttons.</p>
+<p>Source: <a href="https://www.realvnc.com/en/connect/download/viewer/?lai_vid=1jMrlad4GSrl&amp;lai_sr=10-14&amp;lai_sl=l&amp;lai_p=1">Real VNC FAQs</a></p>
+<ul>
+<li><strong>Do I need to license the software?</strong> No.&nbsp;VNC ® Viewer is always free to use. Just accept the EULA the first time you run.</li>
+</ul>
+<p>Source: <a href="https://www.realvnc.com/en/connect/download/viewer/?lai_vid=1jMrlad4GSrl&amp;lai_sr=10-14&amp;lai_sl=l&amp;lai_p=1">Real VNC FAQs</a></p>
+<!-- ## *What is an Editor?*
+
+In the world of programming, an editor is more than just a text processor. It's your creative workspace where you bring your code to life. Here are some key aspects of code editors:
+
+- **Text Editing**: At its core, an editor allows you to write, edit, and organize code in various programming languages. It provides features like syntax highlighting, auto-indentation, and code completion to enhance your coding experience.
+
+- **Code Execution**: Some editors, like Jupyter Notebook, not only allow you to write code but also execute it in an interactive and step-by-step manner. This is especially useful for data analysis and experimentation.
+
+- **Extensions and Plugins**: Code editors are highly customizable. You can enhance their functionality by installing extensions or plugins tailored to your needs. For example, you can add Python-specific tools or themes to make your editor visually appealing.
+
+- **Integrated Development Environments (IDEs)**: Some editors, such as Visual Studio Code (VS Code), go beyond text editing and offer a complete integrated development environment with debugging capabilities, version control integration, and more.
+
+- **Collaboration**: Many editors support collaborative coding, allowing multiple programmers to work on the same codebase simultaneously, which is crucial for group projects.
+
 <!-- In your CSCI1010 class, you'll use a combination of Anaconda, Jupyter, and VS Code:
 
 - **Anaconda**: Anaconda is a Python distribution that simplifies package management and environment setup. It's particularly valuable for data science projects, as it comes with a wide array of pre-installed libraries and tools.
@@ -218,19 +318,31 @@ ul.task-list li input[type="checkbox"] {
 - **Jupyter**: Jupyter Notebook is an interactive environment that enables you to create and share documents containing live code, equations, visualizations, and narrative text. It's an excellent choice for data analysis and presenting your findings.
 
 - **VS Code**: Visual Studio Code (VS Code) is a versatile code editor that supports multiple programming languages and offers a rich ecosystem of extensions. Its user-friendly interface and powerful features make it a great choice for general programming tasks. -->
-<p>The following tools will help you throughout this workshop, helping you write, execute, and code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!</p>
+</section>
+<section id="installation-instructions" class="level1">
+<h1>Installation instructions</h1>
+<p>The following installation instructions are important for this worshop, helping you connect to the hardware provided and execute programs effectively. <!-- will help you throughout this workshop, helping you write, execute, and code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence! --></p>
 <section id="select-an-option-appropriate-for-your-operating-system" class="level3">
-<h3 class="anchored" data-anchor-id="select-an-option-appropriate-for-your-operating-system"><strong>Select an Option Appropriate for Your Operating System</strong></h3>
+<h3 class="anchored" data-anchor-id="select-an-option-appropriate-for-your-operating-system"><strong>Select an option appropriate for your operating system</strong></h3>
 <!-- <div id="steps"></div> -->
 <section id="macos" class="level4">
 <h4 class="anchored" data-anchor-id="macos"><strong>MacOS:</strong></h4>
 <!-- - **Step 1**: [Install Anaconda for Mac](anaconda-mac.qmd) -->
 <ul>
-<li><strong>Step 1:</strong> <a href="./realvnc-mac.html">Install Real VNC</a></li>
-</ul>
-<!-- - **Step 3**: [Install VS Code for Mac](vscode-mac.qmd) -->
+<li><strong>Step 1:</strong> Install Real VNC Viewer for Mac OS 12+
 <ul>
-<li><strong>Step 2:</strong> <a href="./realvnc-mac-connect.html">Connect to the Raspberry Pi</a></li>
+<li>Donwload the installation file <strong><a href="./downloads/VNC-Viewer-7.12.1-MacOSX-universal.dmg">here</a></strong></li>
+<li>Follow installation instructions <strong><a href="./realvnc-mac.html">here</a></strong></li>
+</ul></li>
+<li><strong>Step 2:</strong> Download and install <strong><a href="https://www.google.com/chrome/browser-tools/">Chrome web browser</a></strong>
+<ul>
+<li>Skip this step if you already have Chrome installed on your laptop.</li>
+</ul></li>
+<li><strong>Step 3:</strong> Create a <strong>free <a href="https://thingspeak.com/login?skipSSOCheck=true">ThingSpeak</a> account</strong>
+<ul>
+<li>This step requires Step 2 to be completed as it works mostly on the Chrome browser.</li>
+</ul></li>
+<li><strong>Step 4:</strong> <strong>Laptop connection to the Raspberry Pi</strong> using an <a href="./realvnc-mac-connect.html">Ethernet cable and VNC Viewer</a></li>
 </ul>
 <!-- - **Step 5:** [Install Python and Jupyter without Anaconda](python3-mac.qmd) -->
 </section>
@@ -238,22 +350,62 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="windows"><strong>Windows:</strong></h4>
 <!-- - **Step 1**: [Install Anaconda for Windows](anaconda-windows.qmd) -->
 <ul>
-<li><strong>Step 1:</strong> <a href="./realvnc-windows.html">Install Real VNC</a></li>
-</ul>
-<!-- - **Step 3**: [Install VS Code for Windows](vscode-windows.qmd) -->
+<li><strong>Step 1:</strong> Install Real VNC Viewer for Windows 10+
 <ul>
-<li><strong>Step 2:</strong> <a href="./realvnc-windows-connect.html">Connect to the Raspberry Pi</a></li>
+<li>Donwload the installation file <strong><a href="./downloads/VNC-Viewer-7.12.1-Windows.exe">here</a></strong></li>
+<li>Follow installation instructions <strong><a href="./realvnc-windows.html">here</a></strong></li>
+</ul></li>
+<li><strong>Step 2:</strong> Download and install <strong><a href="https://www.google.com/chrome/browser-tools/">Chrome web browser</a></strong>
+<ul>
+<li>Skip this step if you already have Chrome installed on your laptop.</li>
+</ul></li>
+<li><strong>Step 3:</strong> Create a <strong>free <a href="https://thingspeak.com/login?skipSSOCheck=true">ThingSpeak</a> account</strong>
+<ul>
+<li>This step requires Step 2 to be completed as it works mostly on the Chrome browser.</li>
+</ul></li>
+<li><strong>Step 4:</strong> <strong>Laptop connection to the Raspberry Pi</strong> using an <a href="./realvnc-windows-connect.html">Ethernet cable and VNC Viewer</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="connecting-your-laptop-to-the-raspberry-pi-using-vnc-viewer" class="level1">
+<h1>Connecting your laptop to the Raspberry Pi using VNC® Viewer</h1>
+<section id="select-an-option-appropriate-for-your-operating-system-1" class="level3">
+<h3 class="anchored" data-anchor-id="select-an-option-appropriate-for-your-operating-system-1"><strong>Select an option appropriate for your operating system</strong></h3>
+<!-- <div id="steps"></div> -->
+<section id="macos-1" class="level4">
+<h4 class="anchored" data-anchor-id="macos-1"><strong>MacOS:</strong></h4>
+<ul>
+<li><strong>Step 4:</strong> <strong>Laptop connection to the Raspberry Pi</strong> using an <a href="./realvnc-mac-connect.html">Ethernet cable and VNC Viewer</a></li>
+</ul>
+</section>
+<section id="windows-1" class="level4">
+<h4 class="anchored" data-anchor-id="windows-1"><strong>Windows:</strong></h4>
+<ul>
+<li><strong>Step 4:</strong> <strong>Laptop connection to the Raspberry Pi</strong> using an <a href="./realvnc-windows-connect.html">Ethernet cable and VNC Viewer</a></li>
 </ul>
 <!-- - **Step 5:** [Install Python and Jupyter without Anaconda](python3-windows.qmd) -->
-<p>Choose the option that best suits your needs and follow the respective installation instructions.</p>
-<p>Once you have an editor installed, you can start writing and running your code. Happy coding!</p>
-<p>Also, once you’ve finished <strong>installation Steps 1 and 2</strong>, fill out the <a href="https://forms.gle/Y6Yi9HTZSjD1MPHb7">Installation Check-In form</a>. <!-- and the [CS1010  form](https://forms.gle/EoKoGY5KHMi4wEBs7). Both the forms are **MANDATORY** to be filled out before the first class.Entry --></p>
-</section>
-</section>
-<section id="you-will-be-automatically-entered-into-a-raffle-in-the-workshop-on-10122024." class="level3">
-<h3 class="anchored" data-anchor-id="you-will-be-automatically-entered-into-a-raffle-in-the-workshop-on-10122024.">You will be automatically entered into a raffle in the workshop on 10/12/2024.</h3>
+<!-- Choose the option that best suits your needs and follow the respective installation instructions. -->
+<!-- Once you have an editor installed, you can start writing and running your code. Happy coding! -->
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Follow the instructions provided carefully and complete the required installations needed for this workshop.</li>
+<li>Once you finish the <strong>Steps 1, 2 and 3 in the installation instructions</strong>, fill out the <a href="https://forms.gle/Y6Yi9HTZSjD1MPHb7">Installation Check-In form</a>.</li>
+<li><strong>You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.</strong></li>
+</ul>
+</div>
+</div>
 <hr>
-<p><small><small><em>Content on this webpage was partially generated using ChatGPT.</em></small></small></p>
+<!-- <small><small>*Content on this webpage was partially generated using ChatGPT.*</small></small> -->
 <!-- <br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
@@ -295,58 +447,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
