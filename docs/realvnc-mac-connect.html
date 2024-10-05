@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kartik Bulusu">
-<meta name="dcterms.date" content="2024-10-01">
+<meta name="dcterms.date" content="2024-10-05">
 
 <title>Workshop for IEEE NoVA Chapter (Fall2024) - Connect the Raspberry Pi on Macintosh machine</title>
 <style>
@@ -33,7 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./realvnc-windows-connect.html" rel="next">
-<link href="./realvnc-windows.html" rel="prev">
+<link href="./thingspeak.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -117,6 +117,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop Guidelines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./objectives.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Learning Objectives</span></a>
   </div>
@@ -171,6 +177,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./thingspeak.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ThingSpeak</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
@@ -243,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2024</p>
+      <p class="date">October 5, 2024</p>
     </div>
   </div>
   
@@ -292,13 +304,14 @@ Important
 <h2 class="anchored" data-anchor-id="establish-a-connection">Establish a Connection</h2>
 <section id="launch-realvnc-viewer" class="level3">
 <h3 class="anchored" data-anchor-id="launch-realvnc-viewer">1. Launch RealVNC Viewer</h3>
-<p>Launch VNC Viewer from the Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re <strong><u>NOT REQUIRED</u></strong> to sign up.</p>
+<p>Launch VNC Viewer from the Launchpad.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/screenshots/realvnc-mac/screenshot-11.png" class="img-fluid figure-img"></p>
 <figcaption>Open RealVNC Viewer</figcaption>
 </figure>
 </div>
+<p>If prompted to Log in/Sign Up hit “Cancel”, you’re <strong><u>NOT REQUIRED</u></strong> to sign up.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/screenshots/realvnc-mac/screenshot-7.png" class="img-fluid figure-img"></p>
@@ -308,25 +321,15 @@ Important
 </section>
 <section id="connect-to-a-raspberry-pi" class="level3">
 <h3 class="anchored" data-anchor-id="connect-to-a-raspberry-pi">2. Connect to a Raspberry Pi</h3>
-<p>To connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.</p>
+<p>To connect to a Raspberry Pi, launch RealVNC Viewer, enter the “<strong>raspberrypi.local</strong>” on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.</p>
+<!-- ![IP Address on the Box](images/screenshots/realvnc-mac/screenshot-12.png) -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-12.png" class="img-fluid figure-img"></p>
-<figcaption>IP Address on the Box</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-8.png" class="img-fluid figure-img"></p>
+<p><img src="images/screenshots/realvnc_macOS_2024/step_6.png" class="img-fluid figure-img"></p>
 <figcaption>Connect to the Pi</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-9.png" class="img-fluid figure-img"></p>
-<figcaption>Enter Credentials</figcaption>
-</figure>
-</div>
+<!-- ![Enter Credentials](images/screenshots/realvnc-mac/screenshot-9.png) -->
 </section>
 <section id="enjoy-remote-desktop-access" class="level3">
 <h3 class="anchored" data-anchor-id="enjoy-remote-desktop-access">3. Enjoy Remote Desktop Access</h3>
@@ -698,8 +701,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./realvnc-windows.html" class="pagination-link  aria-label=" windows"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Windows</span>
+      <a href="./thingspeak.html" class="pagination-link  aria-label=" thingspeak"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ThingSpeak</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

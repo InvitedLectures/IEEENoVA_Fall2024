@@ -102,6 +102,7 @@ The following installation instructions are important for this worshop, helping 
 
 - **Step 3:** Create a **free [ThingSpeak](https://thingspeak.com/login?skipSSOCheck=true) account**
   - This step requires Step 2 to be completed as it works mostly on the Chrome browser.
+  - Follow the steps on this page [**ThingSpeak**](thingspeak.qmd) to finish account creation.
 
 - **Step 4:** **Laptop connection to the Raspberry Pi** using an [Ethernet cable and VNC Viewer](realvnc-mac-connect.qmd)
 
@@ -120,6 +121,7 @@ The following installation instructions are important for this worshop, helping 
 
 - **Step 3:** Create a **free [ThingSpeak](https://thingspeak.com/login?skipSSOCheck=true) account**
   - This step requires Step 2 to be completed as it works mostly on the Chrome browser.
+  - Follow the steps on this page [**ThingSpeak**](thingspeak.qmd) to finish account creation.
 
 - **Step 4:** **Laptop connection to the Raspberry Pi** using an [Ethernet cable and VNC Viewer](realvnc-windows-connect.qmd)
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kartik Bulusu">
-<meta name="dcterms.date" content="2024-10-01">
+<meta name="dcterms.date" content="2024-10-05">
 
 <title>Workshop for IEEE NoVA Chapter (Fall2024) - RealVNC Installation Guide for Mac</title>
 <style>
@@ -117,6 +117,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop Guidelines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./objectives.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Learning Objectives</span></a>
   </div>
@@ -171,6 +177,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./thingspeak.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ThingSpeak</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
@@ -209,9 +221,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a></li>
   <li><a href="#installation-steps" id="toc-installation-steps" class="nav-link" data-scroll-target="#installation-steps">Installation Steps</a>
   <ul class="collapse">
-  <li><a href="#download-realvnc-viewer" id="toc-download-realvnc-viewer" class="nav-link" data-scroll-target="#download-realvnc-viewer">1. Download RealVNC Viewer</a></li>
-  <li><a href="#install-realvnc-viewer" id="toc-install-realvnc-viewer" class="nav-link" data-scroll-target="#install-realvnc-viewer">2. Install RealVNC Viewer:</a></li>
-  <li><a href="#follow-installation-wizard" id="toc-follow-installation-wizard" class="nav-link" data-scroll-target="#follow-installation-wizard">3. Follow Installation Wizard</a></li>
+  <li><a href="#download-the-installation-file-here" id="toc-download-the-installation-file-here" class="nav-link" data-scroll-target="#download-the-installation-file-here">0. Download the installation file <strong>here</strong></a></li>
+  <li><a href="#install-realvnc-viewer" id="toc-install-realvnc-viewer" class="nav-link" data-scroll-target="#install-realvnc-viewer">1. Install RealVNC Viewer:</a></li>
+  <li><a href="#follow-installation-wizard" id="toc-follow-installation-wizard" class="nav-link" data-scroll-target="#follow-installation-wizard">2. Follow Installation Wizard</a></li>
   <li><a href="#launch-realvnc-viewer" id="toc-launch-realvnc-viewer" class="nav-link" data-scroll-target="#launch-realvnc-viewer">4. Launch RealVNC Viewer</a></li>
   </ul></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
@@ -240,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2024</p>
+      <p class="date">October 5, 2024</p>
     </div>
   </div>
   
@@ -279,70 +291,67 @@ Important
 </div>
 </div>
 <!-- # RealVNC Installation Guide for Mac -->
-<p>RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to install RealVNC on your macOS.</p>
+<p>This guide will walk you through the process of installing and setting up RealVNC on your Macintosh computer to enable remote desktop access.</p>
 <section id="prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Before you begin, ensure that you have administrative privileges on your Mac.</p>
+<p>Before you begin, ensure you meet the following requirements:</p>
+<ul>
+<li>A Macintosh computer running a supported version of MacOS (e.g., MacOS 12+).</li>
+<li>Internet access.</li>
+</ul>
 </section>
 <section id="installation-steps" class="level2">
 <h2 class="anchored" data-anchor-id="installation-steps">Installation Steps</h2>
-<section id="download-realvnc-viewer" class="level3">
-<h3 class="anchored" data-anchor-id="download-realvnc-viewer">1. Download RealVNC Viewer</h3>
-<p>Visit the RealVNC Viewer download page at <a href="https://www.realvnc.com/en/connect/download/combined/">https://www.realvnc.com/en/connect/download/combined/</a> and click on the “Download for macOS” button to download the installer.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-1.png" class="img-fluid figure-img"></p>
-<figcaption>Downlaod RealVNC</figcaption>
-</figure>
-</div>
+<!-- ### 1. Download RealVNC Viewer
+
+Visit the RealVNC Viewer download page at [https://www.realvnc.com/en/connect/download/combined/](https://www.realvnc.com/en/connect/download/combined/) and click on the "Download for macOS" button to download the installer.
+
+![Downlaod RealVNC](images/screenshots/realvnc-mac/screenshot-1.png) -->
+<section id="download-the-installation-file-here" class="level3">
+<h3 class="anchored" data-anchor-id="download-the-installation-file-here">0. Download the installation file <strong><a href="./downloads/VNC-Viewer-7.12.1-MacOSX-universal.dmg">here</a></strong></h3>
 </section>
 <section id="install-realvnc-viewer" class="level3">
-<h3 class="anchored" data-anchor-id="install-realvnc-viewer">2. Install RealVNC Viewer:</h3>
+<h3 class="anchored" data-anchor-id="install-realvnc-viewer">1. Install RealVNC Viewer:</h3>
 <p>Locate the downloaded installer file (usually in your Downloads folder) and double-click on it to start the installation process and click on “Allow” when prompted.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-2.png" class="img-fluid figure-img"></p>
+<p><img src="images/screenshots/realvnc_macOS_2024/step_1.png" class="img-fluid figure-img"></p>
 <figcaption>Run Installer</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-3.png" class="img-fluid figure-img"></p>
-<figcaption>Allow Installation</figcaption>
-</figure>
-</div>
+<!-- ![Allow Installation](images/screenshots/realvnc-mac/screenshot-3.png) -->
 </section>
 <section id="follow-installation-wizard" class="level3">
-<h3 class="anchored" data-anchor-id="follow-installation-wizard">3. Follow Installation Wizard</h3>
-<p>The installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.</p>
+<h3 class="anchored" data-anchor-id="follow-installation-wizard">2. Follow Installation Wizard</h3>
+<p>The installation wizard will guide you through the installation process. Move the VNC Viewer to Applications to finish the installation. <!-- The installation wizard will guide you through the installation process. Click on "Customize installation" and "Deselect RealVNC Server" and hit "Install". --></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-4.png" class="img-fluid figure-img"></p>
-<figcaption>Customize Installation</figcaption>
+<p><img src="images/screenshots/realvnc_macOS_2024/step_2.png" class="img-fluid figure-img"></p>
+<figcaption>Move VNC Viewer to Applications</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-5.png" class="img-fluid figure-img"></p>
-<figcaption>Deselect RealVNC Server</figcaption>
-</figure>
-</div>
+<!-- ![Customize Installation](images/screenshots/realvnc-mac/screenshot-4.png)
+
+![Deselect RealVNC Server](images/screenshots/realvnc-mac/screenshot-5.png) -->
 </section>
 <section id="launch-realvnc-viewer" class="level3">
 <h3 class="anchored" data-anchor-id="launch-realvnc-viewer">4. Launch RealVNC Viewer</h3>
-<p>Once the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Launchpad. If prompted to Log in/Sign Up hit “Cancel”, you’re <strong><u>NOT REQUIRED</u></strong> to sign up.</p>
+<p>Once the installation is complete, you can launch RealVNC Viewer from Launchpad.</p>
+<!-- ![Open RealVNC using the launch button](images/screenshots/realvnc-mac/screenshot-6.png) -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-6.png" class="img-fluid figure-img"></p>
-<figcaption>Open RealVNC</figcaption>
+<p><img src="images/screenshots/realvnc_macOS_2024/step_3.png" class="img-fluid figure-img"></p>
+<figcaption>Open RealVNC from Launchpad</figcaption>
 </figure>
 </div>
+<p>If prompted to Log in/Sign Up hit “Cancel”, you’re <strong><u>NOT REQUIRED</u></strong> to sign up.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/screenshots/realvnc-mac/screenshot-7.png" class="img-fluid figure-img"></p>
 <figcaption>Don’t Sign up</figcaption>
 </figure>
 </div>
+<!-- ![Establish a ] -->
 </section>
 </section>
 <section id="conclusion" class="level2">

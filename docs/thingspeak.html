@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kartik Bulusu">
-<meta name="dcterms.date" content="2024-10-04">
+<meta name="dcterms.date" content="2024-10-05">
 
-<title>Workshop for IEEE NoVA Chapter (Fall2024) - Instruction Team</title>
+<title>Workshop for IEEE NoVA Chapter (Fall2024) - Creating a ThingSpeak Account</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./realvnc-mac-connect.html" rel="next">
+<link href="./realvnc-windows.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,9 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Workshop for IEEE NoVA Chapter (Fall2024)
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./install-editor.html">Getting Started (Prerequisites)</a></li><li class="breadcrumb-item"><a href="./thingspeak.html">ThingSpeak</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -117,6 +117,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop Guidelines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./objectives.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Learning Objectives</span></a>
   </div>
@@ -131,12 +137,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./instructor.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Instructor</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workshop Guidelines</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -177,6 +177,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./thingspeak.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">ThingSpeak</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
@@ -212,10 +218,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dr.-kartik-bulusu-instructor" id="toc-dr.-kartik-bulusu-instructor" class="nav-link active" data-scroll-target="#dr.-kartik-bulusu-instructor">Dr.&nbsp;Kartik Bulusu (Instructor)</a></li>
-  <li><a href="#professional-assistant" id="toc-professional-assistant" class="nav-link" data-scroll-target="#professional-assistant">Professional assistant</a>
+  <li><a href="#steps-to-create-your-thingspeak-account" id="toc-steps-to-create-your-thingspeak-account" class="nav-link active" data-scroll-target="#steps-to-create-your-thingspeak-account">Steps to Create Your ThingSpeak Account</a>
   <ul class="collapse">
-  <li><a href="#rutvik-solanki" id="toc-rutvik-solanki" class="nav-link" data-scroll-target="#rutvik-solanki">Rutvik Solanki</a></li>
+  <li><a href="#access-the-mathworks-sign-in-page" id="toc-access-the-mathworks-sign-in-page" class="nav-link" data-scroll-target="#access-the-mathworks-sign-in-page">1. Access the MathWorks Sign-In Page</a></li>
+  <li><a href="#create-a-new-account" id="toc-create-a-new-account" class="nav-link" data-scroll-target="#create-a-new-account">2. Create a New Account</a></li>
+  <li><a href="#use-your-work-or-university-email" id="toc-use-your-work-or-university-email" class="nav-link" data-scroll-target="#use-your-work-or-university-email">3. Use Your Work or University Email</a></li>
+  <li><a href="#verify-your-email" id="toc-verify-your-email" class="nav-link" data-scroll-target="#verify-your-email">4. Verify Your Email</a></li>
+  <li><a href="#complete-your-profile" id="toc-complete-your-profile" class="nav-link" data-scroll-target="#complete-your-profile">5. Complete Your Profile</a></li>
+  <li><a href="#access-thingspeak" id="toc-access-thingspeak" class="nav-link" data-scroll-target="#access-thingspeak">6. Access ThingSpeak</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -223,9 +233,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./install-editor.html">Getting Started (Prerequisites)</a></li><li class="breadcrumb-item"><a href="./thingspeak.html">ThingSpeak</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Instruction Team</h1>
+<h1 class="title">Creating a ThingSpeak Account</h1>
 </div>
 
 
@@ -242,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 4, 2024</p>
+      <p class="date">October 5, 2024</p>
     </div>
   </div>
   
@@ -254,51 +264,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
-
-<style>
-        body {
-            -webkit-user-select: none; /* Safari */
-            -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* IE10+/Edge */
-            user-select: none; /* Standard */
-        }
-    </style>
-
-
-<!-- <div class="breadcrumbs">
-  <a href="./index.qmd">Home</a> &raquo;
-  <span class="current-page">Instruction Team</span>
-</div> -->
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="steps-to-create-your-thingspeak-account" class="level2">
+<h2 class="anchored" data-anchor-id="steps-to-create-your-thingspeak-account">Steps to Create Your ThingSpeak Account</h2>
+<p>ThingSpeak is a platform for the Internet of Things (IoT) that allows you to collect, analyze, and visualize data from sensors. Follow these steps to create your account:</p>
+<section id="access-the-mathworks-sign-in-page" class="level3">
+<h3 class="anchored" data-anchor-id="access-the-mathworks-sign-in-page">1. Access the MathWorks <a href="https://thingspeak.com/login?skipSSOCheck=true">Sign-In Page</a></h3>
+<p>Navigate to the MathWorks <a href="https://thingspeak.com/login?skipSSOCheck=true">sign-in page</a>. You’ll see a form similar to this:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/thingspeak/image1.png" class="img-fluid figure-img"></p>
+<figcaption>MathWorks sign-in page</figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Referencing the content in this workshop:</strong></p>
-<p>Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.</p>
-</div>
-</div>
-<section id="dr.-kartik-bulusu-instructor" class="level2">
-<h2 class="anchored" data-anchor-id="dr.-kartik-bulusu-instructor">Dr.&nbsp;Kartik Bulusu (Instructor)</h2>
-<p><strong>Dr.&nbsp;Kartik V. Bulusu</strong> is an Associate Research Professor in the Department of Mechanical and Aerospace Engineering (MAE).</p>
-<p>His research work entails human health and sustainable energy with a focus on biofluid mechanics, polymer rheology, low-cost energy technologies, and applications of wavelet transforms.</p>
-<p>He is also working on AI-on-the-edge applications using low-power devices. In his free time, he loves to tinker with electronics and design low-cost experiments for research and education.</p>
-<p>Dr.&nbsp;Bulusu has been developing low-cost ejector technologies refrigeration in disaster-prone regions and humanitarian needs.</p>
-<p><strong>Office Hours:</strong> On-Demand (Please reach out via email)</p>
-<p><strong>Location:</strong> Blackboard Collaborate Course Room</p>
-<p><strong>Campus Address:</strong> SEH 3000</p>
-<p><strong>Email</strong>: <a href="mailto:bulusu@email.gwu.edu">bulusu@email.gwu.edu</a></p>
 </section>
-<section id="professional-assistant" class="level2">
-<h2 class="anchored" data-anchor-id="professional-assistant">Professional assistant</h2>
-<section id="rutvik-solanki" class="level3">
-<h3 class="anchored" data-anchor-id="rutvik-solanki">Rutvik Solanki</h3>
+<section id="create-a-new-account" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-new-account">2. Create a New Account</h3>
+<p>If you don’t have an account, click on “Create one!” to start the account creation process.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/thingspeak/image2.png" class="img-fluid figure-img"></p>
+<figcaption>Create MathWorks Account</figcaption>
+</figure>
+</div>
+<p>Fill in your details, including your email address, location, and name.</p>
+</section>
+<section id="use-your-work-or-university-email" class="level3">
+<h3 class="anchored" data-anchor-id="use-your-work-or-university-email">3. Use Your Work or University Email</h3>
+<p>For accessing your organization’s MATLAB license, it’s recommended to use your work or university email.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/thingspeak/image3.png" class="img-fluid figure-img"></p>
+<figcaption>Personal Email Detected</figcaption>
+</figure>
+</div>
+<p>If you entered a personal email, you may see a warning. You can choose to continue with your personal email or switch to a work/university email.</p>
+</section>
+<section id="verify-your-email" class="level3">
+<h3 class="anchored" data-anchor-id="verify-your-email">4. Verify Your Email</h3>
+<p>After submitting your information, you’ll need to verify your email address.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/thingspeak/image4.png" class="img-fluid figure-img"></p>
+<figcaption>Verify Your MathWorks Account</figcaption>
+</figure>
+</div>
+<p>Check your inbox for the verification email and follow the link provided.</p>
+</section>
+<section id="complete-your-profile" class="level3">
+<h3 class="anchored" data-anchor-id="complete-your-profile">5. Complete Your Profile</h3>
+<p>The final step is to set up your password and accept the terms of service.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/thingspeak/image5.png" class="img-fluid figure-img"></p>
+<figcaption>Finish Your Profile</figcaption>
+</figure>
+</div>
+<p>Create a strong password and make sure to check the box to accept the Online Services Agreement.</p>
+</section>
+<section id="access-thingspeak" class="level3">
+<h3 class="anchored" data-anchor-id="access-thingspeak">6. Access ThingSpeak</h3>
+<p>Once your MathWorks account is set up, you can use these credentials to log into ThingSpeak and start your IoT projects!</p>
+<p>Remember, ThingSpeak offers powerful tools for data aggregation and analytics, allowing you to connect smart devices and develop algorithms for sensor analytics using MATLAB.</p>
 
 
 </section>
@@ -332,6 +358,58 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -640,6 +718,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./realvnc-windows.html" class="pagination-link  aria-label=" windows"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Windows</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./realvnc-mac-connect.html" class="pagination-link" aria-label="Mac">
+        <span class="nav-page-text">Mac</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

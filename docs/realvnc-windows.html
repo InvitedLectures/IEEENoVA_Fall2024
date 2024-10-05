@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kartik Bulusu">
-<meta name="dcterms.date" content="2024-10-01">
+<meta name="dcterms.date" content="2024-10-05">
 
 <title>Workshop for IEEE NoVA Chapter (Fall2024) - RealVNC Installation Guide for Windows</title>
 <style>
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./realvnc-mac-connect.html" rel="next">
+<link href="./thingspeak.html" rel="next">
 <link href="./realvnc-mac.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -117,6 +117,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop Guidelines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./objectives.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Learning Objectives</span></a>
   </div>
@@ -171,6 +177,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./thingspeak.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ThingSpeak</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
@@ -206,10 +218,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#installation-steps" id="toc-installation-steps" class="nav-link" data-scroll-target="#installation-steps">Installation Steps</a>
   <ul class="collapse">
-  <li><a href="#download-realvnc" id="toc-download-realvnc" class="nav-link" data-scroll-target="#download-realvnc">1. Download RealVNC</a></li>
-  <li><a href="#install-vnc-viewer" id="toc-install-vnc-viewer" class="nav-link" data-scroll-target="#install-vnc-viewer">2. Install VNC Viewer</a></li>
+  <li><a href="#download-the-installation-file-here" id="toc-download-the-installation-file-here" class="nav-link" data-scroll-target="#download-the-installation-file-here">0. Download the installation file <strong>here</strong></a></li>
+  <li><a href="#install-vnc-viewer" id="toc-install-vnc-viewer" class="nav-link" data-scroll-target="#install-vnc-viewer">1. Install VNC Viewer</a></li>
   <li><a href="#follow-installation-wizard" id="toc-follow-installation-wizard" class="nav-link" data-scroll-target="#follow-installation-wizard">3. Follow Installation Wizard</a></li>
   <li><a href="#launch-realvnc-viewer" id="toc-launch-realvnc-viewer" class="nav-link" data-scroll-target="#launch-realvnc-viewer">4. Launch RealVNC Viewer</a></li>
   </ul></li>
@@ -239,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2024</p>
+      <p class="date">October 5, 2024</p>
     </div>
   </div>
   
@@ -273,7 +286,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Referencing the content on this workshop:</strong></p>
+<p><strong>Referencing the content in this workshop:</strong></p>
 <p>Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.</p>
 </div>
 </div>
@@ -286,22 +299,23 @@ Important
 <li>A Windows computer running a supported version of Windows (e.g., Windows 10, Windows 8, Windows 7).</li>
 <li>Internet access.</li>
 </ul>
-<section id="download-realvnc" class="level3">
-<h3 class="anchored" data-anchor-id="download-realvnc">1. Download RealVNC</h3>
-<p>Open your web browser and go to the RealVNC website at <a href="https://www.realvnc.com/en/connect/download/combined/">https://www.realvnc.com/en/connect/download/combined/</a>. Click on the “Download VNC Viewer” button.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/screenshots/realvnc-windows/screenshot-1.png" class="img-fluid figure-img"></p>
-<figcaption>Download VNC Viewer</figcaption>
-</figure>
-</div>
+<!-- ### 1. Download RealVNC
+
+Open your web browser and go to the RealVNC website at [https://www.realvnc.com/en/connect/download/combined/](https://www.realvnc.com/en/connect/download/combined/). Click on the "Download VNC Viewer" button.
+
+![Download VNC Viewer](images/screenshots/realvnc-windows/screenshot-1.png) -->
+</section>
+<section id="installation-steps" class="level2">
+<h2 class="anchored" data-anchor-id="installation-steps">Installation Steps</h2>
+<section id="download-the-installation-file-here" class="level3">
+<h3 class="anchored" data-anchor-id="download-the-installation-file-here">0. Download the installation file <strong><a href="./downloads/VNC-Viewer-7.12.1-Windows.exe">here</a></strong></h3>
 </section>
 <section id="install-vnc-viewer" class="level3">
-<h3 class="anchored" data-anchor-id="install-vnc-viewer">2. Install VNC Viewer</h3>
+<h3 class="anchored" data-anchor-id="install-vnc-viewer">1. Install VNC Viewer</h3>
 <p>Locate the downloaded installer file (e.g., <code>VNC-Viewer-*.exe</code>) and double-click it to run the installer. Once the installation is complete, click “Finish” to exit the installer.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-windows/screenshot-5.png" class="img-fluid figure-img"></p>
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_1.png" class="img-fluid figure-img"></p>
 <figcaption>Open Installer</figcaption>
 </figure>
 </div>
@@ -317,32 +331,66 @@ Important
 <p>The installation wizard will guide you through the installation process. Click on “Customize installation” and “Deselect RealVNC Server” and hit “Install”.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-windows/screenshot-3.png" class="img-fluid figure-img"></p>
-<figcaption>Customize Installation</figcaption>
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_2.png" class="img-fluid figure-img"></p>
+<figcaption>Select English as the peferred language</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-windows/screenshot-4.png" class="img-fluid figure-img"></p>
-<figcaption>Deselect RealVNC Server</figcaption>
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_3.png" class="img-fluid figure-img"></p>
+<figcaption>Click on Next</figcaption>
 </figure>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_4.png" class="img-fluid figure-img"></p>
+<figcaption>Accept terms and conditions, and click Next.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_5.png" class="img-fluid figure-img"></p>
+<figcaption>Select installation location</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_6.png" class="img-fluid figure-img"></p>
+<figcaption>Click on Install</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_7.png" class="img-fluid figure-img"></p>
+<figcaption>Finish installation</figcaption>
+</figure>
+</div>
+<!-- ![Customize Installation](images/screenshots/realvnc-windows/screenshot-3.png) -->
+<!-- ![Deselect RealVNC Server](images/screenshots/realvnc-windows/screenshot-4.png) -->
 </section>
 <section id="launch-realvnc-viewer" class="level3">
 <h3 class="anchored" data-anchor-id="launch-realvnc-viewer">4. Launch RealVNC Viewer</h3>
-<p>Once the installation is complete, you can launch RealVNC Viewer by clicking on the “Launch” button or launch it from Start. If prompted to Log in/Sign Up hit “Cancel”, you’re <strong><u>NOT REQUIRED</u></strong> to sign up.</p>
+<p>Once the installation is complete, you can launch RealVNC Viewer from Start.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-mac/screenshot-6.png" class="img-fluid figure-img"></p>
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_8.png" class="img-fluid figure-img"></p>
 <figcaption>Open RealVNC</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/screenshots/realvnc-windows/screenshot-6.png" class="img-fluid figure-img"></p>
-<figcaption>Don’t Sign up</figcaption>
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_9.png" class="img-fluid figure-img"></p>
+<figcaption>When prompted click on “Sign in to get Started and hit cancel button</figcaption>
 </figure>
 </div>
+<p>If prompted to Log in/Sign Up hit “Cancel”, you’re <strong><u>NOT REQUIRED</u></strong> to sign up.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/screenshots/real_vnc_winOS_2024/step_10.png" class="img-fluid figure-img"></p>
+<figcaption>Hit Cancel button</figcaption>
+</figure>
+</div>
+<!-- ![Don't Sign up](images/screenshots/realvnc-windows/screenshot-6.png) -->
 </section>
 </section>
 <section id="conclusion" class="level1">
@@ -704,8 +752,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./realvnc-mac-connect.html" class="pagination-link" aria-label="Mac">
-        <span class="nav-page-text">Mac</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./thingspeak.html" class="pagination-link" aria-label="ThingSpeak">
+        <span class="nav-page-text">ThingSpeak</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
