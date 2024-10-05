@@ -36,21 +36,23 @@ Before you begin, ensure that you have already installed RealVNC on your Windows
 
 ### 1. Launch RealVNC Viewer
 
-Launch VNC Viewer from Start. If prompted to Log in/Sign Up hit "Cancel", you're **<u>NOT REQUIRED</u>** to sign up.
+Launch VNC Viewer from Start. 
 
-![Open RealVNC Viewer](images/screenshots/realvnc-windows/screenshot-7.png)
+![Open RealVNC Viewer](images/screenshots/real_vnc_winOS_2024/step_8.png)
 
-![Don't Sign up](images/screenshots/realvnc-windows/screenshot-6.png)
+If prompted to Log in/Sign Up hit "Cancel", you're **<u>NOT REQUIRED</u>** to sign up.
+
+![Don't Sign up](images/screenshots/real_vnc_winOS_2024/step_10.png)
 
 ### 2. Connect to a Raspberry Pi
 
-To connect to a Raspberry Pi, launch RealVNC Viewer, enter the IP address on the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.
+To connect to a Raspberry Pi, launch RealVNC Viewer, enter "**raspberrypi.local**" in the box into the address bar, and hit Enter. You may need to enter the login credentials for the Raspberry Pi.
 
-![IP Address on the Box](images/screenshots/realvnc-mac/screenshot-12.png)
+<!-- ![IP Address on the Box](images/screenshots/realvnc-mac/screenshot-12.png) -->
 
-![Connect to the Pi](images/screenshots/realvnc-windows/screenshot-8.png)
+![Connect to the Pi](images/screenshots/real_vnc_winOS_2024/step_11.png)
 
-![Enter Credentials](images/screenshots/realvnc-mac/screenshot-9.png)
+<!-- ![Enter Credentials](images/screenshots/realvnc-mac/screenshot-9.png) -->
 
 ### 3. Enjoy Remote Desktop Access
 
