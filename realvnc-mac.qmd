@@ -26,11 +26,14 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 
 <!-- # RealVNC Installation Guide for Mac -->
 
-RealVNC is a remote desktop software that allows you to access your computer from anywhere. Follow the steps below to install RealVNC on your macOS.
+This guide will walk you through the process of installing and setting up RealVNC on your Macintosh computer to enable remote desktop access.
 
 ## Prerequisites
 
-Before you begin, ensure that you have administrative privileges on your Mac.
+Before you begin, ensure you meet the following requirements:
+
+- A Macintosh computer running a supported version of MacOS (e.g., MacOS 12+).
+- Internet access.
 
 ## Installation Steps
 

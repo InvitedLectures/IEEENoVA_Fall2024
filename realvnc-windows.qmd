@@ -19,7 +19,7 @@ format:
 <body>
 
 :::{.callout-important}
-**Referencing the content on this workshop:**
+**Referencing the content in this workshop:**
 
 Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.
 :::
@@ -40,6 +40,8 @@ Before you begin, ensure you meet the following requirements:
 Open your web browser and go to the RealVNC website at [https://www.realvnc.com/en/connect/download/combined/](https://www.realvnc.com/en/connect/download/combined/). Click on the "Download VNC Viewer" button.
 
 ![Download VNC Viewer](images/screenshots/realvnc-windows/screenshot-1.png) -->
+
+## Installation Steps
 
 ### 0. Donwload the installation file **[here](/downloads/VNC-Viewer-7.12.1-Windows.exe)**
 
