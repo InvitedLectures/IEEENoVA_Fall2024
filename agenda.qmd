@@ -109,7 +109,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
         </tr>
         <tr class="table-active">
             <td>1:30 - 2:00</td>
-            <td>Blinking LEDs<br><b>Make up Quiz</b></td>
+            <td>Blinking LEDs</td>
             <td>
                 <ul>
                     <li style="color:black">Python skelton code for running programs on the Raspberry Pi</li>
