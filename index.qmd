@@ -12,7 +12,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 :::
 
 :::{.callout-important}
-**Referencing the content in this workshop:**
+**Registartion:**
 [Registration link](https://events.vtools.ieee.org/event/register/437187)
 :::
 
