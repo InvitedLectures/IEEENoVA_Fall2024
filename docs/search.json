@@ -118,7 +118,7 @@
     "href": "objectives.html",
     "title": "Learning Objectives",
     "section": "",
-    "text": "Important\n\n\n\nReferencing the content on this workshop:\nBulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.\n\n\n\n\nGain basic, hands-on knowledge of Raspberry Pi hardware with Python programming language\nGain exposure to IoT automation platforms such as ThingSpeak\nImplement one Raspberry Pi-based IoT system\nGain insight on edge computing strategies with the Raspberry Pi\nGain understanding of industry 4.0 exposure via invited speakers and case studies",
+    "text": "Important\n\n\n\nReferencing the content on this workshop:\nBulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practical introduction to a DIY internet of things system. [Workshop for the IEEE Northern Virigina Chapter]. Department of Mechanical and Aerospace Engineering, The George Washington University.\n\n\n\n\nGain basic, hands-on knowledge of Raspberry Pi hardware with Python programming language\nGain insight on edge computing strategies with the Raspberry Pi\nGain exposure to IoT automation platforms such as ThingSpeak\nImplement one Raspberry Pi-based IoT system",
     "crumbs": [
       "Learning Objectives"
     ]
