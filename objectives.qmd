@@ -26,7 +26,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 
 <!-- ## Course Learning Outcomes -->
 1. Gain basic, hands-on knowledge of Raspberry Pi hardware with Python programming language
-2. Gain insight on edge computing strategies with the Raspberry Pi
+2. Gain insight on IoT applications and edge computing strategies with the Raspberry Pi
 3. Gain exposure to IoT automation platforms such as ThingSpeak 
 4. Implement one Raspberry Pi-based IoT system
 <!-- 5. Gain insight on edge computing strategies with the Raspberry Pi -->
