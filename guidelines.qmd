@@ -59,7 +59,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 
 <div class="row">
   <div class="column">
-<p><strong>This workshop requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructor. We ask that all attendees adhere to the workshop guidelines and responsibilities while attending.</strong></p>
+<p><strong>This workshop requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructor.</strong></p>
  </div>
 
  <div class="column">
@@ -71,10 +71,10 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 
 <strong>We ask that all attendees adhere to the following workshop guidelines and responsibilities while attending:</strong>
 
-- **Be respectful:** Listen to the instructor. Keep an open mind to the course material presented. Limit the use of personal devices. Be aware that you are working in a group. Be mindful of your colleagues.
-- **Be responsible:** Help your team members.
-- **Be a communicator:** Observe, Ask questions and Try out the materials presented during the wrokshop. Communicate with your team effectively and politely.
-- **Be a problem solver:** Explore options to complete hands-on tasks. Make your own notes. Stay positive about the workshop outcomes.
+- **Be respectful:** Limit the use of personal devices. **Be aware that you are working in a group. Be mindful of your colleagues.**
+- **Be responsible:**  Keep an open mind to the course material presented. **Help your team members.**
+- **Be a communicator:** **Observe, Ask questions and Try** out the materials presented during the workshop. Communicate with your team effectively and politely.
+- **Be a problem solver:** Explore options to complete hands-on tasks. Make your own notes. **Stay positive about the workshop outcomes.**
 
 ## Justice, Equity, Diversity, Inclusion (JEDI) statement
 
