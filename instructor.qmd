@@ -53,22 +53,35 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 
 
 
-<!-- ## Rutvik Solanki (Professional Assistant)
+ ## Rutvik Solanki (Technical Assistant)
 <table>
   <tr>
     <td width="70%">
-      Meet **Rutvik**, a grad student from Computer Science. Rutvik began his academic journey in India, completing his undergraduate studies at the Symbiosis Institute of Technology, where he cultivated a strong interest in technology.
+      **Rutvik**, was a grad student from Computer Science. Rutvik began his academic journey in India, completing his undergraduate studies at the Symbiosis Institute of Technology, where he cultivated a strong interest in technology.
 
       Before starting his graduate studies at GWU, Rutvik gained valuable experience as both a Data Scientist intern and a DevOps intern at a dynamic startup. These experiences sharpened his skills and fueled his curiosity about the ever-changing tech landscape.
 
-      In addition to his studies, Rutvik is committed to maintaining the CS1010 course website, believing that a well-structured online platform enhances the learning experience for fellow students. Feel free to reach out and join him on this exciting journey!
+      In addition to his studies, Rutvik has been a teaching assistant in Prof. Bulusu's introductory courses on Python programming language. 
     </td>
 
     <td width="30%"> 
       <img src="images/team/rutvik.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
     </td>
   </tr>
-</table> -->
+</table> 
+
+## Rutvik Solanki (Technical Assistant)
+<table>
+  <tr>
+    <td width="70%">
+    **Boomika** is a Software Engineer at Monoflo International Inc., holding a Master's degree in Computer Science from George Washington University. Prior to her Master's degree, she worked as a software engineer for Samsung and HP Inc. During her time at George Washington University, she was a graduate teaching assistant for Intro to programming in Python course taught by Prof. Bulusu, where she led lab sessions to help students gain hands-on knowledge of programming in Python. She is a passionate programmer and continuously seeks to learn new technologies. 
+    </td>
+
+    <td width="30%"> 
+      <img src="images/team/boomika-img.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table> 
 
 <!-- 
 ### Instructor contacts

@@ -80,10 +80,9 @@ If prompted to Log in/Sign Up hit "Cancel", you're **<u>NOT REQUIRED</u>** to si
 
 ## Conclusion
 
-You have successfully installed RealVNC Viewer on your Mac, allowing you to access and control remote computers with ease.
+Congratulations! You have successfully installed RealVNC Viewer on your Macintosh machine, allowing you to access and control remote computers with ease.
 
-For more information and support, you can visit the [RealVNC website](https://www.realvnc.com/).
-
+For more information and support, you can visit the [RealVNC FAQa](https://www.realvnc.com/en/connect/download/viewer/?lai_vid=pXE00z561iP1&lai_sr=0-4&lai_sl=l&lai_p=1).
 <!-- <br><br>
 <footer>
   <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>

@@ -93,9 +93,9 @@ If prompted to Log in/Sign Up hit "Cancel", you're **<u>NOT REQUIRED</u>** to si
 
 # Conclusion
 
-Congratulations! You have successfully installed and set up RealVNC Viewer on your Windows computer. You can now use it to connect to remote computers and access their desktops.
+Congratulations! You have successfully installed and set up RealVNC Viewer on your Windows machine, allowing you to access and control remote computers with ease.
 
-For more advanced features and settings, refer to the [RealVNC documentation](https://www.realvnc.com/documentation/viewer/latest/).
+For more information and support, you can visit the [RealVNC FAQa](https://www.realvnc.com/en/connect/download/viewer/?lai_vid=pXE00z561iP1&lai_sr=0-4&lai_sl=l&lai_p=1).
 
 If you encounter any issues or have questions, please refer to the RealVNC support resources for assistance.
 
