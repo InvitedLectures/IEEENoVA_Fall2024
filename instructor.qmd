@@ -52,8 +52,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 </table>
 
 
-
- ## Rutvik Solanki (Technical Assistant)
+## Rutvik Solanki (Technical Assistant)
 <table>
   <tr>
     <td width="70%">
@@ -70,7 +69,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
   </tr>
 </table> 
 
-## Rutvik Solanki (Technical Assistant)
+## Boomika Karuppaiah(Technical Assistant)
 <table>
   <tr>
     <td width="70%">
