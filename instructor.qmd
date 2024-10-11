@@ -56,11 +56,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
 <table>
   <tr>
     <td width="70%">
-      **Rutvik**, was a grad student from Computer Science. Rutvik began his academic journey in India, completing his undergraduate studies at the Symbiosis Institute of Technology, where he cultivated a strong interest in technology.
-
-      Before starting his graduate studies at GWU, Rutvik gained valuable experience as both a Data Scientist intern and a DevOps intern at a dynamic startup. These experiences sharpened his skills and fueled his curiosity about the ever-changing tech landscape.
-
-      In addition to his studies, Rutvik has been a teaching assistant in Prof. Bulusu's introductory courses on Python programming language. 
+      **Rutvik**, was a grad student from Computer Science. Rutvik began his academic journey in India, completing his undergraduate studies at the Symbiosis Institute of Technology, where he cultivated a strong interest in technology. Before starting his graduate studies at GWU, Rutvik gained valuable experience as both a Data Scientist intern and a DevOps intern at a dynamic startup. These experiences sharpened his skills and fueled his curiosity about the ever-changing tech landscape. In addition to his studies, Rutvik was a teaching assistant in Prof. Bulusu's introductory courses on Python programming language. 
     </td>
 
     <td width="30%"> 
@@ -69,7 +65,7 @@ Bulusu, Kartik V. (2024, October 12). Connect, Compute and Communicate! Practica
   </tr>
 </table> 
 
-## Boomika Karuppaiah(Technical Assistant)
+## Boomika Karuppaiah (Technical Assistant)
 <table>
   <tr>
     <td width="70%">
